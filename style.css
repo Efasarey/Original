@@ -1,0 +1,111 @@
+/* body{
+    background-color: turquoise;
+    border-width: 10px;
+    border-style: solid;
+    border-color: maroon;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.logo{
+    background-color: violet;
+    text-align: center;
+    font-size: 100px;
+    border-width: 10px;
+    border-style: solid;
+    border-color: maroon;
+    padding-top: 40px;
+    margin-top: 40px;
+}
+img{
+    width:2160px ;
+    height: 1080px;
+}
+p{
+    font-size: 56px;
+    font-weight: bold;
+    color: tomato;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+}
+.link-container{
+    margin-left: auto;
+}
+a{
+    font-size: 50px;
+    font-weight: bold;
+}
+a:hover{
+    font-size: 70px;
+    font-weight: bolder;
+    color: maroon;
+    transition: 500ms;
+} */
+.animate{
+    height: 50px;
+    width: 200px;
+    background-color: blue;
+}
+.animate:hover{
+    width: 300px;
+    height: 150;
+    color: black;
+    transition: 500ms;
+}
+button{
+    font-size: 30px;
+    color: crimson;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    padding: 18px;
+    border-radius: 55px;
+    border:5px solid brown;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+button:hover{
+    background-color: black;
+    color: white;
+    transition: 500ms;        
+}
+button:active{
+    color: blue;
+}
+h3{
+    position: relative;
+    top: 50px;
+}
+p{
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+}
+.hero{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    /* background-color: chartreuse; */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.banner{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    background-color: aquamarine;
+    background-image: url("./img.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+} 
+h1{
+    text-align: center;
+}
